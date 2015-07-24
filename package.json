@@ -1,0 +1,27 @@
+{
+  "name": "react-workshop",
+  "version": "0.0.1",
+  "description": "A workspace for developing React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Zane Miller",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "jquery": "^2.1.4",
+    "moment": "^2.10.3",
+    "react": "^0.13.3",
+    "react-cursor": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^1.1.2",
+    "reactify": "^1.1.1"
+  }
+}
