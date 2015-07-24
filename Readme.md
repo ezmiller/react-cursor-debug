@@ -1,36 +1,19 @@
 react-workshop
 ==============
 
-A workspace for developing React components using Browserify/CommonJS.
-
 ## Install
 
 ```
 npm install
+bower install
 ```
 
-## Add components
+## Run
 
-### Steps
-1. Add components and component files in `src/components`.
+```
+grunt
+```
 
-2. For the moment, it is necessary to manually add the components main file to the Gruntfile in order to create a bundle.    
+## Load in browser
 
-		```
-		browserify: {
-			build: {
-				files: {
-					'build/main.js': ['src/main.jsx'],
-					'build/components/helloworld/helloworld.js': ['src/components/helloworld/helloworld.jsx'],
-					// Add something like ^^^^^ here.
-				},
-				options: {
-					transform: ['reactify'],
-					watch: true
-				}
-			}
-		},
-		```
-
-3. (optional) Add a link to the html file that loads the component to src/index.html.
-
+`http://localhost:8000/components/start-discussion/start-discussion.html`
